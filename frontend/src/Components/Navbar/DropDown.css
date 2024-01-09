@@ -3,7 +3,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
   width: 190vh;
-
   left: 40px;
   right: 0;
   top: 90px;
@@ -14,6 +13,7 @@
   background: transparent;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
 .dropdown-menu li {
@@ -26,10 +26,10 @@
   padding: 10px;
   display: block;
   text-decoration: none;
-  color: #000000;
+  color: #1e066d;
   background: transparent;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   border-radius: 15px;
 }
 

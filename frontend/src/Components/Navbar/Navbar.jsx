@@ -22,7 +22,6 @@ const Navbar = () => {
                 return (
                   <li key={item.id} className={item.cName}>
                     <Link
-                      to={item.path}
                       onClick={() => setDropdown(!dropdown)} // Toggle the dropdown on click
                     >
                       {item.title}
