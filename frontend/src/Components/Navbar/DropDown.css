@@ -1,0 +1,39 @@
+.dropdown-menu {
+  position: absolute;
+  width: 190vh;
+  left: 0;
+  top: 90px;
+  margin-right: 40px;
+  list-style: none;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fdfdfd;
+  background-color: rgb(40, 37, 37);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: aqua;
+  padding: 16px;
+}
