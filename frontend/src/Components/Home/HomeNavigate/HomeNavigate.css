@@ -1,0 +1,40 @@
+.homeNavigate {
+  margin-top: 40vh;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navigate-header {
+}
+
+.navigate-header h1 {
+  font-size: 50px;
+}
+
+.navigate-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.navigate-content-box {
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  overflow: hidden;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navigate-content-box h3 {
+  background-color: rgb(217, 219, 223);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
