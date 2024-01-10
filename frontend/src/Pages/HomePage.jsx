@@ -2,11 +2,17 @@
 import React from "react";
 import Home from "../Components/Home/Home";
 import "./CSS/HomePage.css";
+import HomeNavigate from "../Components/Home/HomeNavigate/HomeNavigate";
+import Latest from "../Components/Home/Latest/Latest";
+import Popular from "../Components/Home/Popular/Popular";
 
 const HomePage = () => {
   return (
     <div className="homepage">
       <Home />
+      <HomeNavigate />
+      <Popular />
+      <Latest />
     </div>
   );
 };

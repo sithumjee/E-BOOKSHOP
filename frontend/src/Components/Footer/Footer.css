@@ -1,0 +1,61 @@
+/*-----------------footer-------------------*/
+
+.footer {
+  padding: 50px 15% 10px;
+  color: #b6acac;
+  border-top: 3px solid #303030;
+  background-color: #303030;
+}
+
+.footer h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer .colum {
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.footer .colum a {
+  display: block;
+  text-decoration: none;
+  color: #b6acac;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer .row {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0;
+  flex-direction: row;
+}
+
+.footer .langBtn {
+  background-color: rgb(185, 175, 175);
+  color: rgb(19, 18, 18);
+  padding: 11px 20px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.footer-email input {
+  height: 36px;
+  width: 350px;
+  padding-left: 10px;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  outline: none;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

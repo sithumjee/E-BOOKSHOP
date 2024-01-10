@@ -10,10 +10,11 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  background: transparent;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   z-index: 999;
+
+  background-color: rgba(0, 0, 0, 0.3); /* Black color with 70% transparency */
 }
 
 .dropdown-menu li {
@@ -26,7 +27,7 @@
   padding: 10px;
   display: block;
   text-decoration: none;
-  color: #1e066d;
+  color: #ffffff;
   background: transparent;
   font-size: 16px;
   font-weight: bold;
@@ -35,6 +36,7 @@
 
 .dropdown-menu li a:hover {
   background: #bad3df;
+  color: black;
 }
 
 .dropdown-menu.clicked {

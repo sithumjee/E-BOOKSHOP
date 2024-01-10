@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
   position: relative;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
 }
 
 .banner__image {
@@ -20,7 +21,7 @@
 
 .banner__content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
