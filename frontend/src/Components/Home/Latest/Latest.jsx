@@ -3,7 +3,7 @@ import "./Latest.css";
 
 const Latest = () => {
   return (
-    <div>
+    <div className="latest">
       <h1>NEW ARRIVALS</h1>
     </div>
   );
