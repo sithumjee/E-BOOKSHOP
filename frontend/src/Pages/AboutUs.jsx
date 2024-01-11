@@ -38,6 +38,54 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+
+      <h1>WHERE TO FIND</h1>
+      <div className="finder">
+        <div className="main-finder">
+          <div>
+            <h3>head quateres</h3>
+            <h5>Bandarawela</h5>
+            <p>
+              <span>Address : </span>
+              66/2 Central Road, Bandarawela
+            </p>
+          </div>
+        </div>
+
+        <div className="sub-finder">
+          <div>
+            <h5>Bandarawela</h5>
+            <p>
+              <span>Address : </span>
+              66/2 Central Road, Bandarawela
+            </p>
+          </div>
+
+          <div>
+            <h5>Bandarawela</h5>
+            <p>
+              <span>Address : </span>
+              66/2 Central Road, Bandarawela
+            </p>
+          </div>
+
+          <div>
+            <h5>Bandarawela</h5>
+            <p>
+              <span>Address : </span>
+              66/2 Central Road, Bandarawela
+            </p>
+          </div>
+
+          <div>
+            <h5>Bandarawela</h5>
+            <p>
+              <span>Address : </span>
+              66/2 Central Road, Bandarawela
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

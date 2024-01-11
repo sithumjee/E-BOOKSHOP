@@ -25,3 +25,18 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+/*=============================================================*/
+
+.finder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sub-finder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
