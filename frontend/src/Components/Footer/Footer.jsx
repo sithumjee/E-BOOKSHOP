@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="row">
         <div className="colum">
           <Link to="">FAQ</Link>
-          <Link to="">Investor Relations</Link>
+          <Link to="">About Us</Link>
           <Link to="">Privacy</Link>
           <Link to="">Speed Test</Link>
         </div>
@@ -23,8 +23,8 @@ const Footer = () => {
         </div>
 
         <div className="colum">
-          <Link to="">Account</Link>
-          <Link to="">Ways to watch</Link>
+          <Link to="">Categories</Link>
+          <Link to="">Authors</Link>
           <Link to="">Corporate Information</Link>
           <Link to="">Only on NENAPIYASA</Link>
         </div>
