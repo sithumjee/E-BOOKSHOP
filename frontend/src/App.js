@@ -14,6 +14,8 @@ import PersonalDevelopment from "./Pages/categories/PersonalDevelopment";
 import Business from "./Pages/categories/Business";
 import CookBooks from "./Pages/categories/CookBooks";
 import Childern from "./Pages/categories/Childern";
+import Adventure from "./Pages/categories/Adventure";
+import Health from "./Pages/categories/Health";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/business" element={<Business />} />
           <Route path="/cookbooks" element={<CookBooks />} />
           <Route path="/children" element={<Childern />} />
+          <Route path="/adventure" element={<Adventure />} />
+          <Route path="/health" element={<Health />} />
         </Routes>
         <Footer />
       </BrowserRouter>
