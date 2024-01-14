@@ -12,6 +12,7 @@ import Mystery from "./Pages/categories/Mystery";
 import History from "./Pages/categories/History";
 import PersonalDevelopment from "./Pages/categories/PersonalDevelopment";
 import Business from "./Pages/categories/Business";
+import CookBooks from "./Pages/categories/CookBooks";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/selfHelp" element={<PersonalDevelopment />} />
           <Route path="/business" element={<Business />} />
+          <Route path="/cookbooks" element={<CookBooks />} />
         </Routes>
         <Footer />
       </BrowserRouter>
