@@ -17,6 +17,7 @@ import Childern from "./Pages/categories/Childern";
 import Adventure from "./Pages/categories/Adventure";
 import Health from "./Pages/categories/Health";
 import Philosophy from "./Pages/categories/Philosophy";
+import Art from "./Pages/categories/Art";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/adventure" element={<Adventure />} />
           <Route path="/health" element={<Health />} />
           <Route path="/philosophy" element={<Philosophy />} />
+          <Route path="/art" element={<Art />} />
         </Routes>
         <Footer />
       </BrowserRouter>
