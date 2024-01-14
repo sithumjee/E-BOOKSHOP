@@ -6,6 +6,7 @@ const Childern = () => {
   return (
     <div>
       <div className="popular-item">
+        <h1>C</h1>
         {children_list.map((item, i) => {
           return (
             <Item
