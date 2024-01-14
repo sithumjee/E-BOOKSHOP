@@ -16,6 +16,7 @@ import CookBooks from "./Pages/categories/CookBooks";
 import Childern from "./Pages/categories/Childern";
 import Adventure from "./Pages/categories/Adventure";
 import Health from "./Pages/categories/Health";
+import Philosophy from "./Pages/categories/Philosophy";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/children" element={<Childern />} />
           <Route path="/adventure" element={<Adventure />} />
           <Route path="/health" element={<Health />} />
+          <Route path="/philosophy" element={<Philosophy />} />
         </Routes>
         <Footer />
       </BrowserRouter>
