@@ -13,6 +13,7 @@ import History from "./Pages/categories/History";
 import PersonalDevelopment from "./Pages/categories/PersonalDevelopment";
 import Business from "./Pages/categories/Business";
 import CookBooks from "./Pages/categories/CookBooks";
+import Childern from "./Pages/categories/Childern";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/selfHelp" element={<PersonalDevelopment />} />
           <Route path="/business" element={<Business />} />
           <Route path="/cookbooks" element={<CookBooks />} />
+          <Route path="/children" element={<Childern />} />
         </Routes>
         <Footer />
       </BrowserRouter>
