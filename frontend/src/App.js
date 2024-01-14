@@ -11,6 +11,7 @@ import Fiction from "./Pages/categories/Fiction";
 import Mystery from "./Pages/categories/Mystery";
 import History from "./Pages/categories/History";
 import PersonalDevelopment from "./Pages/categories/PersonalDevelopment";
+import Business from "./Pages/categories/Business";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/mystery" element={<Mystery />} />
           <Route path="/history" element={<History />} />
           <Route path="/selfHelp" element={<PersonalDevelopment />} />
+          <Route path="/business" element={<Business />} />
         </Routes>
         <Footer />
       </BrowserRouter>
