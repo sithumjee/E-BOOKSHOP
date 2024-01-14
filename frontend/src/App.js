@@ -8,6 +8,7 @@ import Footer from "./Components/Footer/Footer";
 import ContactUs from "./Pages/ContactUs";
 import Romance from "./Pages/categories/Romance";
 import Fiction from "./Pages/categories/Fiction";
+import Mystery from "./Pages/categories/Mystery";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/romance" element={<Romance />} />
           <Route path="/fiction" element={<Fiction />} />
+          <Route path="/mystery" element={<Mystery />} />
         </Routes>
         <Footer />
       </BrowserRouter>
