@@ -18,6 +18,9 @@ import Adventure from "./Pages/categories/Adventure";
 import Health from "./Pages/categories/Health";
 import Philosophy from "./Pages/categories/Philosophy";
 import Art from "./Pages/categories/Art";
+import Poetry from "./Pages/categories/Poetry";
+import Religion from "./Pages/categories/Religion";
+import Sports from "./Pages/categories/Sports";
 
 function App() {
   return (
@@ -40,6 +43,9 @@ function App() {
           <Route path="/health" element={<Health />} />
           <Route path="/philosophy" element={<Philosophy />} />
           <Route path="/art" element={<Art />} />
+          <Route path="/poetry" element={<Poetry />} />
+          <Route path="/religion" element={<Religion />} />
+          <Route path="/sports" element={<Sports />} />
         </Routes>
         <Footer />
       </BrowserRouter>
