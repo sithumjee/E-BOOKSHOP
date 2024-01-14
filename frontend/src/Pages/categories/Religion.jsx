@@ -1,14 +1,12 @@
 import React from "react";
-import "./Popular.css";
-import Item from "../../Items/Item";
-import popular_books from "../../Assets/PopularBooks";
+import religion_list from "../../Components/Assets/Categories/Religion";
+import Item from "../../Components/Items/Item";
 
-const Popular = () => {
+const Religion = () => {
   return (
-    <div className="popular">
-      <h1>POPULAR BOOKS</h1>
+    <div>
       <div className="popular-item">
-        {popular_books.map((item, i) => {
+        {religion_list.map((item, i) => {
           return (
             <Item
               key={i}
@@ -25,4 +23,4 @@ const Popular = () => {
   );
 };
 
-export default Popular;
+export default Religion;

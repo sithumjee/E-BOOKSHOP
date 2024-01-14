@@ -1,0 +1,42 @@
+.aboutUs {
+  margin-top: 120px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.left-container {
+  width: 600px;
+  margin-right: 70px;
+  padding-left: 30px;
+}
+
+.right-container {
+  width: 1200px;
+  padding-right: 40px;
+}
+
+.right-container p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*=============================================================*/
+
+.finder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sub-finder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

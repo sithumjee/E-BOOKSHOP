@@ -1,14 +1,12 @@
 import React from "react";
-import "./Popular.css";
-import Item from "../../Items/Item";
-import popular_books from "../../Assets/PopularBooks";
+import selfhelp_list from "../../Components/Assets/Categories/PersonalDevelopment";
+import Item from "../../Components/Items/Item";
 
-const Popular = () => {
+const PersonalDevelopment = () => {
   return (
-    <div className="popular">
-      <h1>POPULAR BOOKS</h1>
+    <div>
       <div className="popular-item">
-        {popular_books.map((item, i) => {
+        {selfhelp_list.map((item, i) => {
           return (
             <Item
               key={i}
@@ -25,4 +23,4 @@ const Popular = () => {
   );
 };
 
-export default Popular;
+export default PersonalDevelopment;
