@@ -5,10 +5,12 @@ import "./CSS/HomePage.css";
 import HomeNavigate from "../Components/Home/HomeNavigate/HomeNavigate";
 import Latest from "../Components/Home/Latest/Latest";
 import Popular from "../Components/Home/Popular/Popular";
+import ShortcutLinks from "../Components/Navbar/Sortcut_Links/SOrtcutLinks";
 
 const HomePage = () => {
   return (
     <div className="homepage">
+      <ShortcutLinks />
       <Home />
       <HomeNavigate />
       <Popular />
