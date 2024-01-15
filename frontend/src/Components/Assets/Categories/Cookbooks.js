@@ -4,6 +4,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -11,6 +12,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -18,6 +20,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -25,6 +28,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -32,6 +36,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -39,6 +44,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -46,6 +52,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -53,6 +60,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -60,6 +68,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -67,6 +76,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -74,6 +84,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
@@ -81,6 +92,7 @@ let cookbooks_list = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
     old_price: 80.5,
