@@ -13,6 +13,7 @@ const PersonalDevelopment = () => {
               id={item.id}
               name={item.name}
               image={item.image}
+              Author_Name={item.Author_Name}
               new_price={item.new_price}
               old_price={item.old_price}
             />
