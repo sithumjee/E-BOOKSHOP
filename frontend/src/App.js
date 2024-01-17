@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import ContactUs from "./Pages/ContactUs";
 import ShopCategory from "./Pages/ShopCategory";
+import Product from "./Pages/Products";
 
 function App() {
   return (
@@ -65,7 +66,11 @@ function App() {
             element={<ShopCategory category="religion" />}
           />
           <Route path="/sports" element={<ShopCategory categoty="sports" />} />
+          <Route path="/product" element={<Product />}>
+            <Route path="/product/:id" element={<Product />} />
+          </Route>
         </Routes>
+
         <Footer />
       </BrowserRouter>
     </div>

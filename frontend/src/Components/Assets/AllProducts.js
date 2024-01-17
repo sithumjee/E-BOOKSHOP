@@ -3,7 +3,7 @@ import image_01 from "./aboutImage.jpg";
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "My adventure book",
     Author_Name: "author name",
     image: image_01,
     new_price: 50.0,
