@@ -6,21 +6,8 @@ import AboutUs from "./Pages/AboutUs";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import ContactUs from "./Pages/ContactUs";
-import Romance from "./Pages/categories/Romance";
-import Fiction from "./Pages/categories/Fiction";
-import Mystery from "./Pages/categories/Mystery";
-import History from "./Pages/categories/History";
-import PersonalDevelopment from "./Pages/categories/PersonalDevelopment";
-import Business from "./Pages/categories/Business";
-import CookBooks from "./Pages/categories/CookBooks";
-import Childern from "./Pages/categories/Childern";
-import Adventure from "./Pages/categories/Adventure";
-import Health from "./Pages/categories/Health";
-import Philosophy from "./Pages/categories/Philosophy";
-import Art from "./Pages/categories/Art";
-import Poetry from "./Pages/categories/Poetry";
-import Religion from "./Pages/categories/Religion";
-import Sports from "./Pages/categories/Sports";
+import ShopCategory from "./Pages/ShopCategory";
+import Product from "./Pages/Products";
 
 function App() {
   return (
@@ -31,22 +18,59 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/romance" element={<Romance />} />
-          <Route path="/fiction" element={<Fiction />} />
-          <Route path="/mystery" element={<Mystery />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/selfHelp" element={<PersonalDevelopment />} />
-          <Route path="/business" element={<Business />} />
-          <Route path="/cookbooks" element={<CookBooks />} />
-          <Route path="/children" element={<Childern />} />
-          <Route path="/adventure" element={<Adventure />} />
-          <Route path="/health" element={<Health />} />
-          <Route path="/philosophy" element={<Philosophy />} />
-          <Route path="/art" element={<Art />} />
-          <Route path="/poetry" element={<Poetry />} />
-          <Route path="/religion" element={<Religion />} />
-          <Route path="/sports" element={<Sports />} />
+          <Route
+            path="/romance"
+            element={<ShopCategory category="romance" />}
+          />
+          <Route
+            path="/fiction"
+            element={<ShopCategory category="fiction" />}
+          />
+          <Route
+            path="/mystery"
+            element={<ShopCategory category="mystery" />}
+          />
+          <Route
+            path="/history"
+            element={<ShopCategory category="history" />}
+          />
+          <Route
+            path="/selfHelp"
+            element={<ShopCategory category="selfHelp" />}
+          />
+          <Route
+            path="/business"
+            element={<ShopCategory category="business" />}
+          />
+          <Route
+            path="/cookbooks"
+            element={<ShopCategory category="cookbooks" />}
+          />
+          <Route
+            path="/children"
+            element={<ShopCategory category="children" />}
+          />
+          <Route
+            path="/adventure"
+            element={<ShopCategory category="adventure" />}
+          />
+          <Route path="/health" element={<ShopCategory categoty="health" />} />
+          <Route
+            path="/philosophy"
+            element={<ShopCategory category="philosophy" />}
+          />
+          <Route path="/art" element={<ShopCategory />} categoty="art" />
+          <Route path="/poetry" element={<ShopCategory categoty="poetry" />} />
+          <Route
+            path="/religion"
+            element={<ShopCategory category="religion" />}
+          />
+          <Route path="/sports" element={<ShopCategory categoty="sports" />} />
+          <Route path="/product" element={<Product />}>
+            <Route path="/product/:id" element={<Product />} />
+          </Route>
         </Routes>
+
         <Footer />
       </BrowserRouter>
     </div>
