@@ -67,7 +67,7 @@ function App() {
           />
           <Route path="/sports" element={<ShopCategory categoty="sports" />} />
           <Route path="/product" element={<Product />}>
-            <Route path="/product/:id" element={<Product />} />
+            <Route path=":productId" element={<Product />} />
           </Route>
         </Routes>
 

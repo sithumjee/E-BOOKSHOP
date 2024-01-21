@@ -1,3 +1,4 @@
+import React, { useContext } from "react";
 import "./ProductDisplay.css";
 
 const ProductDisplay = (props) => {
@@ -31,17 +32,6 @@ const ProductDisplay = (props) => {
 
         <div className="display-right-description">
           <p>{product.description}</p>
-        </div>
-
-        <div className="display-right-size">
-          <h3>Size</h3>
-          <div className="sizeList">
-            <div className="sizeList-item">S</div>
-            <div className="sizeList-item">M</div>
-            <div className="sizeList-item">L</div>
-            <div className="sizeList-item">XL</div>
-            <div className="sizeList-item">XXL</div>
-          </div>
         </div>
 
         <button>ADD TO CART</button>

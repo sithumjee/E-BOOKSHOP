@@ -11,14 +11,9 @@ export default function Product() {
   const { productId } = useParams();
   const product = all_product.find((item) => item.id === Number(productId));
 
-  // // Add conditional rendering to handle potential null or undefined product
-  // if (!product) {
-  //   return <div>Product not found</div>;
-  // }
-
   return (
     <div className="main-product">
-      {/* <GetProductId product={product} /> */}
+      <GetProductId product={product} />
       <ProductDisplay product={product} />
     </div>
   );
