@@ -7,13 +7,6 @@ const ProductDisplay = (props) => {
   return (
     <div className="productDisplay">
       <div className="display-left">
-        <div className="productDisplay-img-list">
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-        </div>
-
         <div className="productDisplay-img">
           <img className="productDisplay-img-main" src={product.image} alt="" />
         </div>
