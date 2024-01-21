@@ -12,15 +12,6 @@ export default function ShopCategory(props) {
   );
   return (
     <div className="mainCategory">
-      <div className="shopcategory-index">
-        <p>
-          <span>Showing 1-12</span> out of 36 products
-        </p>
-        <div className="shopcategory-sort">
-          Sort by <img alt="" />
-        </div>
-      </div>
-
       <div className="shopcategory-product">
         {filteredProducts.map((product, index) => (
           <Item
@@ -33,10 +24,6 @@ export default function ShopCategory(props) {
             old_price={product.old_price}
           />
         ))}
-      </div>
-
-      <div className="loadMore">
-        <button>Load More</button>
       </div>
     </div>
   );
