@@ -26,14 +26,6 @@ const ProductDisplay = (props) => {
         <div className="display-right-description">
           <p>{product.description}</p>
         </div>
-
-        <button>ADD TO CART</button>
-        <p className="displayCategory">
-          <span>Category :</span>Women , T-shirt, Crop Top{" "}
-        </p>
-        <p className="displayCategory">
-          <span>Tags :</span>Modern , Latest{" "}
-        </p>
       </div>
     </div>
   );
