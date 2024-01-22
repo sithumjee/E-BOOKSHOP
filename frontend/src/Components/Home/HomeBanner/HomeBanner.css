@@ -2,17 +2,17 @@
 .banner {
   margin: 0;
   padding: 0;
-  margin-top: 90px;
+  margin-top: 110px;
   position: relative;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+  padding-bottom: 40px;
 }
 
 .banner__image {
-  width: 100%;
-  object-fit: cover;
+  width: 210vh;
 }
 
 .banner__image img {
@@ -22,11 +22,11 @@
 
 .banner__content {
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: rgb(201, 15, 15);
 }
 
 .banner__content h1 {
@@ -36,4 +36,5 @@
 
 .banner__content p {
   font-size: 1.5rem;
+  color: rgb(255, 255, 255);
 }
