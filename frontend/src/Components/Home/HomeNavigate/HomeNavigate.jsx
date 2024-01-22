@@ -3,6 +3,20 @@ import "./HomeNavigate.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import fiction from "../../Assets/navigatationImages/fiction.jpg";
+import romance from "../../Assets/navigatationImages/romance.jpg";
+import adventure from "../../Assets/navigatationImages/adventure.jpg";
+import art from "../../Assets/navigatationImages/art.jpg";
+import business from "../../Assets/navigatationImages/bussiness.jpg";
+import children from "../../Assets/navigatationImages/children.jpg";
+import cookbooks from "../../Assets/navigatationImages/cookbooks.jpg";
+import health from "../../Assets/navigatationImages/health.jpg";
+import history from "../../Assets/navigatationImages/history.jpg";
+import mistery from "../../Assets/navigatationImages/mistory.jpg";
+import personalDevelopment from "../../Assets/navigatationImages/personalDevelopment.jpg";
+import philosophy from "../../Assets/navigatationImages/philosophy.jpg";
+import poetry from "../../Assets/navigatationImages/poetry.jpg";
+import religion from "../../Assets/navigatationImages/religion.jpg";
+import sports from "../../Assets/navigatationImages/sports.jpg";
 
 const HomeNavigate = () => {
   const responsive = {
@@ -34,7 +48,10 @@ const HomeNavigate = () => {
         >
           <h3>Fiction</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${romance})` }}
+        >
           <h3>Romance</h3>
         </div>
         <div className="card-navigate">
