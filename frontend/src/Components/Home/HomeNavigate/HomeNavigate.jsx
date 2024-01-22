@@ -12,7 +12,7 @@ const HomeNavigate = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -28,11 +28,50 @@ const HomeNavigate = () => {
       <h1>NAVIGATE FROM HERE</h1>
       <Carousel responsive={responsive}>
         <div className="card-navigate">
+          <h3>Fiction</h3>
+        </div>
+        <div className="card-navigate">
           <h3>Romance</h3>
         </div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
+        <div className="card-navigate">
+          <h3>Mystery and Triller</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>History</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Personal Development</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Business and Money</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Cookbooks</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Children</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Adventure</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Health and Wellness</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Philosophy</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Art and Photography</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Poetry</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Religion</h3>
+        </div>
+        <div className="card-navigate">
+          <h3>Sports</h3>
+        </div>
       </Carousel>
     </div>
   );
