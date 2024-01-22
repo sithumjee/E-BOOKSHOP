@@ -12,6 +12,7 @@ const HomePage = () => {
     <div className="homepage">
       <ShortcutLinks />
       <Home />
+      <hr />
       <HomeNavigate />
       <Popular />
       <Latest />
