@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeNavigate.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import fiction from "../../Assets/navigatationImages/fiction.jpg";
 
 const HomeNavigate = () => {
   const responsive = {
@@ -27,7 +28,10 @@ const HomeNavigate = () => {
     <div className="navigator">
       <h1>NAVIGATE FROM HERE</h1>
       <Carousel responsive={responsive}>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${fiction})` }}
+        >
           <h3>Fiction</h3>
         </div>
         <div className="card-navigate">
