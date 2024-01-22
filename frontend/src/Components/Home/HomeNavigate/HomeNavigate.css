@@ -34,5 +34,7 @@
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
   width: 300px;
   font-size: 25px;
+  color: white;
+  background-color: #00000080;
 }
 /* You can add more styles as needed */

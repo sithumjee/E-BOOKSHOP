@@ -54,43 +54,82 @@ const HomeNavigate = () => {
         >
           <h3>Romance</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${mistery})` }}
+        >
           <h3>Mystery and Triller</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${history})` }}
+        >
           <h3>History</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${personalDevelopment})` }}
+        >
           <h3>Personal Development</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${business})` }}
+        >
           <h3>Business and Money</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${cookbooks})` }}
+        >
           <h3>Cookbooks</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${children})` }}
+        >
           <h3>Children</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${adventure})` }}
+        >
           <h3>Adventure</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${health})` }}
+        >
           <h3>Health and Wellness</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${philosophy})` }}
+        >
           <h3>Philosophy</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${art})` }}
+        >
           <h3>Art and Photography</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${poetry})` }}
+        >
           <h3>Poetry</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${religion})` }}
+        >
           <h3>Religion</h3>
         </div>
-        <div className="card-navigate">
+        <div
+          className="card-navigate"
+          style={{ backgroundImage: `url(${sports})` }}
+        >
           <h3>Sports</h3>
         </div>
       </Carousel>
