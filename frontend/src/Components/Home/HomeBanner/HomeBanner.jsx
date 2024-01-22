@@ -1,12 +1,12 @@
 import React from "react";
 import "./HomeBanner.css";
-// import bannerImage from "../../Assets/HomeBanner.jpg";
+import homeBanner from "../../Assets/homebanner.jpg";
 
 const HomeBanner = () => {
   return (
     <div className="banner">
       <div className="banner__image">
-        <img alt="banner" />
+        <img src={homeBanner} alt="banner" />
       </div>
       <div className="banner__content">
         <h1>Welcome to Our Bookstore</h1>
