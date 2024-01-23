@@ -14,7 +14,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   z-index: 999;
 
-  background-color: rgba(0, 0, 0, 0.3); /* Black color with 70% transparency */
+  background-color: rgba(0, 0, 0, 0.6); /* Black color with 70% transparency */
 }
 
 .dropdown-menu li {

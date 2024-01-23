@@ -8,7 +8,7 @@ const AuthorItem = (props) => {
       <div className="itemComponent">
         <Link to={props.path}>
           <h4>
-            {props.name} <span>{props.amount}</span>
+            {props.name} <span>{props.amount} books</span>
           </h4>
         </Link>
       </div>
