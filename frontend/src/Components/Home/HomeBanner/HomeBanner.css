@@ -29,10 +29,11 @@
 .banner__content h1 {
   font-size: 70px;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgb(0, 87, 236); /* Applying box shadow to the text */
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Applying box shadow to the text */
+  font-weight: bolder;
 }
 
 .banner__content p {
   font-size: 2rem;
-  color: rgb(198, 220, 245);
+  color: rgb(218, 36, 36);
 }

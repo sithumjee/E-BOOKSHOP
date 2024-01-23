@@ -41,7 +41,8 @@ const HomeNavigate = () => {
   };
   return (
     <div className="navigator">
-      <h1>NAVIGATE FROM HERE</h1>
+      <hr />
+      {/* <h1>NAVIGATE FROM HERE</h1> */}
       <Carousel responsive={responsive}>
         <Link to="/fiction">
           <div
@@ -178,6 +179,7 @@ const HomeNavigate = () => {
           </div>
         </Link>
       </Carousel>
+      <hr />
     </div>
   );
 };
