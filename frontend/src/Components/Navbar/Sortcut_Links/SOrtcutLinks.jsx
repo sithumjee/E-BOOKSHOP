@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const ShortcutLinks = () => {
   return (
     <div className="shortcut">
-      <Link>Authors</Link>
-      <Link>School Books</Link>
-      <Link>Past Papers</Link>
-      <Link>Online Reading</Link>
+      <Link to="/author">Authors</Link>
+      <Link to="schoolbooks">School Books</Link>
+      <Link to="pastPapers">Past Papers</Link>
+      <Link to="onlineReading">Online Reading</Link>
     </div>
   );
 };
