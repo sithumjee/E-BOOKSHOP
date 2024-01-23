@@ -8,6 +8,7 @@ import Footer from "./Components/Footer/Footer";
 import ContactUs from "./Pages/ContactUs";
 import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Products";
+import Authors from "./Components/Authors/Authors";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/author" element={<Authors />} />
+
           <Route
             path="/romance"
             element={<ShopCategory category="romance" />}
