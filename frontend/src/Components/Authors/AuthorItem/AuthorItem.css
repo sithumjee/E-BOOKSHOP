@@ -1,0 +1,29 @@
+.authorItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.authorItem a {
+  text-decoration: none;
+}
+
+.authorItem h4 {
+  font-size: 22px;
+  color: black;
+}
+
+.authorItem span {
+  margin-left: 200px;
+  font-size: 18px;
+  color: rgb(14, 26, 136);
+}
+
+.authorItem hr {
+  width: 2px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.308);
+  width: 195%;
+  margin: 0;
+}
