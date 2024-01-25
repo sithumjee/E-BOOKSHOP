@@ -25,3 +25,17 @@
 .top-container button {
   margin-bottom: 20px;
 }
+
+.author-list {
+  margin-left: 360px;
+  width: 800px;
+  background: rgba(255, 255, 255, 0.611);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+  padding-top: 30px;
+}
