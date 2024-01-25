@@ -1,7 +1,7 @@
 import React from "react";
 import "./CSS/AboutUs.css";
-import aboutImage from "../Components/Assets/aboutImage.jpg";
 import originImage from "../Components/Assets/originImage.jpg";
+import founderImage from "../Components/Assets/founderImage.jpg";
 
 const AboutUs = () => {
   return (
@@ -48,7 +48,7 @@ const AboutUs = () => {
       </div>
       <div className="container">
         <div className="left-container">
-          <img src={aboutImage} alt="" />
+          <img src={founderImage} alt="" />
         </div>
         <div className="right-container">
           <div className="founder-info">
@@ -94,7 +94,7 @@ const AboutUs = () => {
       <div className="finder">
         <div className="main-finder">
           <div>
-            <h3>head quateres</h3>
+            <h2>Head Quatres</h2>
             <h5>Bandarawela</h5>
             <p>
               <span>Address : </span>
@@ -103,36 +103,37 @@ const AboutUs = () => {
           </div>
         </div>
 
+        <hr />
         <div className="sub-finder">
           <div>
-            <h5>Bandarawela</h5>
+            <h5>Colombo</h5>
             <p>
               <span>Address : </span>
-              66/2 Central Road, Bandarawela
+              15/2 Senanayanka Road, Colombo
             </p>
           </div>
 
           <div>
-            <h5>Bandarawela</h5>
+            <h5>Kandy</h5>
             <p>
               <span>Address : </span>
-              66/2 Central Road, Bandarawela
+              87/7 main Street, Kandy
             </p>
           </div>
 
           <div>
-            <h5>Bandarawela</h5>
+            <h5>Matara</h5>
             <p>
               <span>Address : </span>
-              66/2 Central Road, Bandarawela
+              34/2 Seaside Road, Mathara
             </p>
           </div>
 
           <div>
-            <h5>Bandarawela</h5>
+            <h5>Anuradapura</h5>
             <p>
               <span>Address : </span>
-              66/2 Central Road, Bandarawela
+              11/2 Curved Road, Anuradapura
             </p>
           </div>
         </div>

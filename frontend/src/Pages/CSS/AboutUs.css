@@ -64,8 +64,24 @@
   flex-direction: column;
 }
 
+.main-finder {
+  text-align: center;
+}
+
+.finder hr {
+  width: 100%;
+  margin: 20px 0;
+  height: 2px !important;
+}
+
 .sub-finder {
+  width: 100%;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.sub-finder div {
+  text-align: center;
 }
