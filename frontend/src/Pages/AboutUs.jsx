@@ -106,7 +106,7 @@ const AboutUs = () => {
         <hr />
         <div className="sub-finder">
           <div>
-            <h5>Colombo</h5>
+            <h4>Colombo</h4>
             <p>
               <span>Address : </span>
               15/2 Senanayanka Road, Colombo
@@ -114,7 +114,7 @@ const AboutUs = () => {
           </div>
 
           <div>
-            <h5>Kandy</h5>
+            <h4>Kandy</h4>
             <p>
               <span>Address : </span>
               87/7 main Street, Kandy
@@ -122,7 +122,7 @@ const AboutUs = () => {
           </div>
 
           <div>
-            <h5>Matara</h5>
+            <h4>Matara</h4>
             <p>
               <span>Address : </span>
               34/2 Seaside Road, Mathara
@@ -130,7 +130,7 @@ const AboutUs = () => {
           </div>
 
           <div>
-            <h5>Anuradapura</h5>
+            <h4>Anuradapura</h4>
             <p>
               <span>Address : </span>
               11/2 Curved Road, Anuradapura
