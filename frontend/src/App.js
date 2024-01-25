@@ -9,6 +9,7 @@ import ContactUs from "./Pages/ContactUs";
 import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Products";
 import Authors from "./Components/Authors/Authors";
+import Schoolbooks from "./Components/SchoolBooks/Schoolbooks";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/author" element={<Authors />} />
+          <Route path="/schoolbooks" element={<Schoolbooks />} />
 
           <Route
             path="/romance"
