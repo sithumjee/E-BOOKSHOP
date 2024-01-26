@@ -5,81 +5,63 @@ import { Link } from "react-router-dom";
 const ContactUs = () => {
   return (
     <div className="contactus">
-      <div className="finder">
-        <div className="main-finder">
-          <div>
-            <h1>
-              {" "}
-              <span>--------</span> Head Quatres <span>--------</span>{" "}
-            </h1>
-            <h2>Bandarawela</h2>
+      <div className="main">
+        <h3>head quoters</h3>
+        <p>
+          <span>contact :</span>
+          <p>057-5682925</p>
+          <p>071-1663875</p>
+        </p>
+        <p>
+          <span>Email</span>
+          <Link>nenapiyasa@gmail.com</Link>
+        </p>
+        <p>
+          Follow us on Facebook
+          <Link>nenapiyasa</Link>
+        </p>
+      </div>
 
-            <div>
-              <p>
-                <span>contact :</span>
-                <p>057-5682925</p>
-                <p>071-1663875</p>
-              </p>
-            </div>
-
-            <div>
-              <p>
-                <span>Email</span>
-                <Link>nenapiyasa@gmail.com</Link>
-              </p>
-              <p>
-                Follow us on Facebook
-                <Link>nenapiyasa</Link>
-              </p>
-            </div>
-          </div>
+      <div className="sub">
+        <div className="subbranches">
+          <h3>branch name</h3>
+          <p>
+            <span>call us</span>
+            057-5647383
+          </p>
+          <p>
+            <span>Wattsapp </span>0711663876
+          </p>
         </div>
-
-        <hr />
-        <div className="sub-finder">
-          <div>
-            <h4>Colombo</h4>
-            <p>
-              <span>call us</span>
-              057-5647383
-            </p>
-            <p>
-              <span>Wattsapp </span>0711663876
-            </p>
-          </div>
-
-          <div>
-            <h4>Kandy</h4>
-            <p>
-              <span>call us</span>
-              057-5647383
-            </p>
-            <p>
-              <span>Wattsapp </span>0711663876
-            </p>
-          </div>
-
-          <div>
-            <h4>Matara</h4>
-            <p>
-              <span>call us</span>
-              057-5647383
-            </p>
-            <p>
-              <span>Wattsapp </span>0711663876
-            </p>
-          </div>
-
-          <div>
-            <h4>Anuradapura</h4>
-            <p>
-              <span>call us</span>
-              057-5647383
-            </p>
-            <p>
-              <span>Wattsapp </span>0711663876
-            </p>
-          </div>
+        <div className="subbranches">
+          <h3>branch name</h3>
+          <p>
+            <span>call us</span>
+            057-5647383
+          </p>
+          <p>
+            <span>Wattsapp </span>0711663876
+          </p>
+        </div>
+        <div className="subbranches">
+          <h3>branch name</h3>
+          <p>
+            <span>call us</span>
+            057-5647383
+          </p>
+          <p>
+            <span>Wattsapp </span>0711663876
+          </p>
+        </div>
+        <div className="subbranches">
+          <h3>branch name</h3>
+          <p>
+            <span>call us</span>
+            057-5647383
+          </p>
+          <p>
+            <span>Wattsapp </span>0711663876
+          </p>
         </div>
       </div>
 

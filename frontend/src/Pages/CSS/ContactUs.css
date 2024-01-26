@@ -7,43 +7,11 @@
   flex-direction: column;
 }
 
-.finder {
-  width: 80%;
+.sub {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: column;
-}
-
-.main-finder h1 {
-  font-size: 40px;
-  font-weight: bolder;
-  margin-bottom: 20px;
-  color: rgb(8, 15, 99);
-  border-radius: 10px;
-  padding: 5px 50px;
-}
-
-.main-finder {
-  text-align: center;
-}
-
-.finder hr {
-  width: 100%;
-  margin: 20px 0;
-  height: 2px !important;
-}
-
-.sub-finder {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.sub-finder div {
-  text-align: center;
+  width: 70%;
 }
 
 .feedback-banner {
