@@ -6,19 +6,21 @@ const ContactUs = () => {
   return (
     <div className="contactus">
       <div className="main">
-        <h3>head quoters</h3>
+        <h1>
+          BANDARAWELA (<span>Head Quatres</span>)
+        </h1>
         <p>
           <span>contact :</span>
           <p>057-5682925</p>
           <p>071-1663875</p>
         </p>
         <p>
-          <span>Email</span>
+          <span>Email: </span>
           <Link>nenapiyasa@gmail.com</Link>
         </p>
         <p>
           Follow us on Facebook
-          <Link>nenapiyasa</Link>
+          <Link> nenapiyasa</Link>
         </p>
       </div>
 
