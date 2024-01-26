@@ -6,6 +6,7 @@ import HomeNavigate from "../Components/Home/HomeNavigate/HomeNavigate";
 import Latest from "../Components/Home/Latest/Latest";
 import Popular from "../Components/Home/Popular/Popular";
 import ShortcutLinks from "../Components/Navbar/Sortcut_Links/SOrtcutLinks";
+import AddBanner from "../Components/Home/AddBanner/AddBanner";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <hr />
       <HomeNavigate />
       <Popular />
+      <AddBanner />
       <Latest />
     </div>
   );

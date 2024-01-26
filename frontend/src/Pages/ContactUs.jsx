@@ -6,23 +6,20 @@ const ContactUs = () => {
   return (
     <div className="contactus">
       <div className="main">
-        <h2>Head Quoters</h2>
-        <div className="main-subSection">
-          <p>
-            <span>contact :</span>
-            <p>057-5682925</p>
-            <p>071-1663875</p>
-          </p>
-          <p>
-            <span>Email</span>
-            <Link>nenapiyasa@gmail.com</Link>
-          </p>
-          <br />
-          <p>
-            Follow us on Facebook
-            <Link>nenapiyasa</Link>
-          </p>
-        </div>
+        <h3>head quoters</h3>
+        <p>
+          <span>contact :</span>
+          <p>057-5682925</p>
+          <p>071-1663875</p>
+        </p>
+        <p>
+          <span>Email</span>
+          <Link>nenapiyasa@gmail.com</Link>
+        </p>
+        <p>
+          Follow us on Facebook
+          <Link>nenapiyasa</Link>
+        </p>
       </div>
 
       <div className="sub">
