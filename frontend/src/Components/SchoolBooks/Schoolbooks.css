@@ -1,0 +1,33 @@
+.schoolbooks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.schoolbooks h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(15, 9, 88);
+}
+
+.search-box input {
+  height: 50px;
+  width: 550px;
+  padding-left: 50px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 20px;
+  font-size: 18px;
+  color: rgb(21, 11, 50);
+}
+
+.search-box button {
+  margin-bottom: 20px;
+}
