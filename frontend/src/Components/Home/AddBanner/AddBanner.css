@@ -1,0 +1,78 @@
+.addBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px; /* Set the height as per your design */
+  background-image: linear-gradient(0deg, #5ee7df 0%, #b490ca 100%);
+  padding: 20px; /* Add padding as per your design */
+}
+
+.bannerContent {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px; /* Set the width as per your design */
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.bannerContent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/addBanner.jpg");
+  opacity: 0.6; /* Set the desired opacity for the background image overlay */
+  border-radius: 10px;
+}
+
+/* Adjust the z-index of the text elements to ensure they appear above the overlay */
+.left,
+.right {
+  position: relative;
+  z-index: 1;
+}
+
+.left {
+  flex: 1.5;
+  padding: 20px; /* Add padding as per your design */
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 30px; /* Set the font size as per your design */
+  margin-bottom: 10px; /* Add margin as per your design */
+}
+
+p {
+  font-size: 16px; /* Set the font size as per your design */
+  margin-bottom: 10px; /* Add margin as per your design */
+}
+
+span {
+  font-weight: bold; /* Set the font weight as per your design */
+  color: rgb(56, 3, 3);
+}
+
+.left button {
+  padding: 10px 20px; /* Add padding as per your design */
+  background-color: #007bff; /* Set the background color as per your design */
+  color: #fff; /* Set the text color as per your design */
+  border: none;
+  cursor: pointer;
+}
+
+.right img {
+  width: 300px;
+  margin-top: 68px;
+}
