@@ -80,6 +80,8 @@ const Schoolbooks = () => {
         <button>Search</button>
       </div>
 
+      <hr />
+
       <div className="content"></div>
     </div>
   );
