@@ -1,8 +1,12 @@
+// Schoolbooks.js
 import React, { useState } from "react";
 import "./Schoolbooks.css";
+import booksData from "./booksData"; // Import the book data
 
 const Schoolbooks = () => {
   const [grade, setGrade] = useState("1-5"); // State for grade selection
+  const [selectedSubject, setSelectedSubject] = useState("select"); // State for selected subject
+  const [relevantBook, setRelevantBook] = useState(null); // State for relevant book details
 
   const subjectsByGrade = {
     "1-5": [
@@ -57,6 +61,19 @@ const Schoolbooks = () => {
 
   const handleGradeChange = (e) => {
     setGrade(e.target.value);
+    setSelectedSubject("select"); // Reset selected subject when grade changes
+    setRelevantBook(null); // Reset relevant book details
+  };
+
+  const handleSubjectChange = (e) => {
+    setSelectedSubject(e.target.value);
+  };
+
+  const handleSearch = () => {
+    const relevantBookInfo = booksData[grade][selectedSubject];
+    if (relevantBookInfo) {
+      setRelevantBook(relevantBookInfo);
+    }
   };
 
   return (
@@ -70,19 +87,36 @@ const Schoolbooks = () => {
           <option value="9-11">Grade 9-11</option>
         </select>
 
-        <select>
+        <select value={selectedSubject} onChange={handleSubjectChange}>
           {subjectsByGrade[grade].map((subject, index) => (
             <option key={index} value={subject}>
               {subject}
             </option>
           ))}
         </select>
-        <button>Search</button>
+        <button onClick={handleSearch}>Search</button>
       </div>
 
       <hr />
 
-      <div className="content"></div>
+      {relevantBook && (
+        <div className="book-details">
+          <h2>{relevantBook.title}</h2>
+          <p>Grade: {relevantBook.grade}</p>
+          <p>Subject: {relevantBook.subject}</p>
+          <img src={relevantBook.imageUrl} alt={relevantBook.title} />
+          <a href={relevantBook.downloadLink} target="_blank" rel="noreferrer">
+            Download
+          </a>
+          <a
+            href={relevantBook.readOnlineLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read Online
+          </a>
+        </div>
+      )}
     </div>
   );
 };
