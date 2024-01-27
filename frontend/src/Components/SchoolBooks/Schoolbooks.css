@@ -1,0 +1,69 @@
+hr {
+  width: 80%;
+  height: 3px;
+  background-color: #dedee5;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.schoolbooks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.schoolbooks h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(15, 9, 88);
+}
+
+.search-box button {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Add custom styles for the select dropdown and its options */
+select {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px; /* Add border-radius to round the corners */
+  background-color: #dedee5; /* Set background color */
+  color: #333; /* Set text color */
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+}
+
+select:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: #007bff; /* Change border color on focus */
+}
+
+option {
+  padding: 10px;
+  background-color: #fff; /* Set background color for options */
+  color: #333; /* Set text color for options */
+  font-size: 17px;
+}
+
+option:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+  line-height: 2;
+}
