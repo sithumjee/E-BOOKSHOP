@@ -71,3 +71,44 @@ option:hover {
   color: #fff; /* Change text color on hover */
   line-height: 2;
 }
+
+/* ================================================================================================================== */
+
+.book-details,
+.options {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.bookImage {
+  width: 300px;
+}
+
+.bookImage img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.bookContent h2 {
+  font-size: 60px;
+  font-style: italic;
+  color: #101073;
+}
+
+.bookContent p {
+  font-size: 20px;
+  padding-left: 20px;
+  color: black;
+}
+
+.bookContent span {
+  margin-right: 10px;
+}
+
+.options {
+  gap: 300px;
+}
