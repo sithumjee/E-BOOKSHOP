@@ -10,6 +10,7 @@ import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Products";
 import Authors from "./Components/Authors/Authors";
 import Schoolbooks from "./Components/SchoolBooks/Schoolbooks";
+import PastPapers from "./Components/PastPapers/PastPapers";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/author" element={<Authors />} />
           <Route path="/schoolbooks" element={<Schoolbooks />} />
+          <Route path="/PastPapers" element={<PastPapers />} />
 
           <Route
             path="/romance"
