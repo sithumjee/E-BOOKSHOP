@@ -2,7 +2,12 @@ import React from "react";
 import "./PastPapers.css";
 
 const PastPapers = () => {
-  return <div></div>;
+  return (
+    <div className="pastPapers">
+      <h1>Past Papers</h1>
+      <h3>Find all the pastPapers from 2000</h3>
+    </div>
+  );
 };
 
 export default PastPapers;
