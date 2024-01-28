@@ -1,4 +1,4 @@
-// booksData.js
+import aboutImage from "../Assets/aboutImage.jpg";
 
 const booksData = {
   "1-5": {
@@ -6,7 +6,7 @@ const booksData = {
       title: "Parisaraya Book",
       grade: "1-5",
       subject: "Parisaraya",
-      imageUrl: "parisaraya.jpg",
+      imageUrl: aboutImage,
       downloadLink: "parisaraya.pdf",
       readOnlineLink: "parisaraya-online",
     },
