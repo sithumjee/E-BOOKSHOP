@@ -121,6 +121,7 @@ const Schoolbooks = () => {
           <div className="options">
             <div>
               <a
+                className="download"
                 href={relevantBook.downloadLink}
                 target="_blank"
                 rel="noreferrer"
