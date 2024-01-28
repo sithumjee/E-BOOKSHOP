@@ -1,21 +1,37 @@
+/* ContactUs.css */
+
 .contactus {
-  margin-top: 100px;
+  position: relative;
+  margin-top: 70px;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  background-color: transparent;
+}
+
+.contactus::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../Components/Assets/addBanner.jpg");
+  background-size: cover;
+  opacity: 0.3; /* Adjust the opacity as per your requirement */
 }
 
 a {
   text-decoration: none;
-  color: rgb(146, 65, 65);
+  color: rgb(54, 4, 4);
 }
 
 hr {
   width: 100%;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .mainDetails {

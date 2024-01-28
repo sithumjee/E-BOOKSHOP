@@ -139,6 +139,8 @@ const Schoolbooks = () => {
               </a>
             </div>
           </div>
+
+          <hr />
         </>
       )}
     </div>
