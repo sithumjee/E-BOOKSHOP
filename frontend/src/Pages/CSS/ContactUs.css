@@ -12,7 +12,7 @@
   background-color: transparent;
 }
 
-.contactus::before {
+/* .contactus::before {
   content: "";
   position: absolute;
   top: 0;
@@ -21,8 +21,7 @@
   left: 0;
   background-image: url("../../Components/Assets/addBanner.jpg");
   background-size: cover;
-  opacity: 0.3; /* Adjust the opacity as per your requirement */
-}
+  opacity: 0.3; /* Adjust the opacity as per your requirement} */
 
 a {
   text-decoration: none;
@@ -72,4 +71,7 @@ hr {
 .feedback-banner input {
   height: 50px;
   width: 400px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
 }
