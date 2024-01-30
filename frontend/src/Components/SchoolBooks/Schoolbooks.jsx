@@ -2,62 +2,12 @@
 import React, { useState } from "react";
 import "./Schoolbooks.css";
 import booksData from "./booksData"; // Import the book data
+import subjectsByGrade from "./Subjects";
 
 const Schoolbooks = () => {
-  const [grade, setGrade] = useState("1-5"); // State for grade selection
+  const [grade, setGrade] = useState("Grade 1"); // State for grade selection
   const [selectedSubject, setSelectedSubject] = useState("select"); // State for selected subject
   const [relevantBook, setRelevantBook] = useState(null); // State for relevant book details
-
-  const subjectsByGrade = {
-    "1-5": [
-      "select",
-      "Parisaraya",
-      "Vidyawa",
-      "Sinhala",
-      "Ganithaya",
-      "Demala",
-      "English",
-      "Dancing",
-      "Art",
-      "Music",
-    ],
-    "6-8": [
-      "select",
-      "Science",
-      "Maths",
-      "English",
-      "History",
-      "Civics",
-      "Tamil",
-      "Dancing",
-      "Art",
-      "Music",
-      "Sinhala",
-      "ICT",
-      "Health",
-      "PTS",
-      "Geography",
-    ],
-    "9-11": [
-      "select",
-      "Science",
-      "Maths",
-      "English",
-      "History",
-      "Civics",
-      "Tamil",
-      "Dancing",
-      "Art",
-      "Music",
-      "Sinhala",
-      "ICT",
-      "Health",
-      "PTS",
-      "Geography",
-      "English Literature",
-      "Sinhala Literature",
-    ],
-  };
 
   const handleGradeChange = (e) => {
     setGrade(e.target.value);
@@ -83,9 +33,17 @@ const Schoolbooks = () => {
 
       <div className="search-box">
         <select value={grade} onChange={handleGradeChange}>
-          <option value="1-5">Grade 1-5</option>
-          <option value="6-8">Grade 6-8</option>
-          <option value="9-11">Grade 9-11</option>
+          <option value="Grade 1">Grade 1</option>
+          <option value="Grade 2">Grade 2</option>
+          <option value="Grade 3">Grade 3</option>
+          <option value="Grade 4">Grade 4</option>
+          <option value="Grade 5">Grade 5</option>
+          <option value="Grade 6">Grade 6</option>
+          <option value="Grade 7">Grade 7</option>
+          <option value="Grade 8">Grade 8</option>
+          <option value="Grade 9">Grade 9</option>
+          <option value="Grade 10">Grade 10</option>
+          <option value="Grade 11">Grade 11</option>
         </select>
 
         <select value={selectedSubject} onChange={handleSubjectChange}>
@@ -141,6 +99,10 @@ const Schoolbooks = () => {
           </div>
 
           <hr />
+
+          <div className="lowerSection">
+            <h3>Look for the most downloaded books</h3>
+          </div>
         </>
       )}
     </div>
