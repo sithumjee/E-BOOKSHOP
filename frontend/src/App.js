@@ -11,6 +11,7 @@ import Product from "./Pages/Products";
 import Authors from "./Components/Authors/Authors";
 import Schoolbooks from "./Components/SchoolBooks/Schoolbooks";
 import PastPapers from "./Components/PastPapers/PastPapers";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/author" element={<Authors />} />
           <Route path="/schoolbooks" element={<Schoolbooks />} />
           <Route path="/PastPapers" element={<PastPapers />} />
+          <Route path="/cart" element={<Cart />} />
 
           <Route
             path="/romance"

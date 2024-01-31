@@ -16,7 +16,7 @@ export default function Product() {
     <div className="main-product">
       <GetProductId product={product} />
       <ProductDisplay product={product} />
-      <RelatedProducts allProducts={all_product} currentProduct={product} />
+      {/* <RelatedProducts allProducts={all_product} currentProduct={product} /> */}
     </div>
   );
 }
