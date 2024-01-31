@@ -1,0 +1,59 @@
+.sidebar {
+  width: 300px;
+}
+.left-sidebar {
+  position: sticky;
+  padding-top: 100px;
+  align-self: flex-start;
+  padding-left: 40px;
+}
+
+.imp-links a,
+.shortcut-links a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #626262;
+  width: fit-content;
+}
+
+.imp-links a:hover {
+  color: #17817b;
+}
+
+.imp-links a img {
+  width: 15px;
+  margin-right: 20px;
+}
+
+.imp-links a:last-child {
+  color: #1876f2;
+  padding-left: 5px;
+}
+
+.imp-links {
+  border-bottom: 1px solid rgb(188, 186, 186);
+}
+
+.shortcut-links img {
+  width: 60px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.shortcut-links {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.shortcut-links p {
+  font-family: sans-serif;
+  margin: 25px 0;
+  color: #626262;
+  font-weight: 700;
+}
+
+.shortcut-links a:hover {
+  color: #17817b;
+}

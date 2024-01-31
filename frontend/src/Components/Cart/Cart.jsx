@@ -9,8 +9,8 @@ const Cart = () => {
   return (
     <div className="carditems">
       <div className="cartitems-format-main">
-        <p>Products</p>
-        <p>Title</p>
+        <p>Book Name</p>
+        <p>Author Name</p>
         <p>Price</p>
         <p>Quantity</p>
         <p>Total</p>
