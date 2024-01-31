@@ -17,7 +17,8 @@ const ProductDisplay = (props) => {
       <div className="display-right">
         <h1>{product.name}</h1>
         <div className="display-right-star">
-          <p>(122)</p>
+          <h2>{product.Author_Name}</h2>
+          <p>{product.category}</p>
         </div>
 
         <div className="display-right-price">
@@ -34,7 +35,7 @@ const ProductDisplay = (props) => {
             addToCart(product.id);
           }}
         >
-          ADD TO CART
+          ORDER NOW
         </button>
       </div>
     </div>
