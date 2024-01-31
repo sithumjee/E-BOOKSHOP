@@ -12,12 +12,14 @@ import Authors from "./Components/Authors/Authors";
 import Schoolbooks from "./Components/SchoolBooks/Schoolbooks";
 import PastPapers from "./Components/PastPapers/PastPapers";
 import Cart from "./Components/Cart/Cart";
+import ShortcutLinks from "./Components/Navbar/Sortcut_Links/SOrtcutLinks";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        <ShortcutLinks />
 
         <Routes>
           <Route path="/" element={<HomePage />} />
