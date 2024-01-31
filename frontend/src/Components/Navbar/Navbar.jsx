@@ -1,13 +1,17 @@
 // Navbar.js
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import { navItems } from "./NavItmes.js"; // Make sure the import path is correct
 import DropDown from "./DropDown";
 import { Link } from "react-router-dom";
+import cart_icon from "../Assets/cart_icon.png";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
+  const { totalCartItems } = useContext(ShopContext);
   return (
     <>
       <div className="navbar">
@@ -40,8 +44,15 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="navbar__right">
-          <button>LOGIN</button>
+        <div className="navbar__cart">
+          <Link to="/login">
+            <button>Login</button>
+          </Link>
+          <Link to="/cart">
+            <img src={cart_icon} alt="cart" />
+          </Link>
+
+          <span className="cart_count">{totalCartItems()}</span>
         </div>
       </div>
     </>
