@@ -127,3 +127,27 @@ option:hover {
 .options a:hover {
   opacity: 0.9;
 }
+
+.lowerSection h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #0d0942;
+}
+
+.lowerContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-left: 90px;
+}
+
+.lowerContent img {
+  width: 200px;
+  margin-bottom: 30px;
+
+  border-radius: 10px;
+}
