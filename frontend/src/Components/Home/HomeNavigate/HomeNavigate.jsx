@@ -43,7 +43,12 @@ const HomeNavigate = () => {
     <div className="navigator">
       <hr />
       {/* <h1>NAVIGATE FROM HERE</h1> */}
-      <Carousel responsive={responsive}>
+      <Carousel
+        responsive={responsive}
+        autoPlay={true}
+        autoPlaySpeed={1000}
+        infinite={true}
+      >
         <Link to="/fiction">
           <div
             className="card-navigate"
