@@ -8,7 +8,7 @@ const ShortcutLinks = () => {
       <Link to="/author">Authors</Link>
       <Link to="schoolbooks">School Books</Link>
       <Link to="pastPapers">Past Papers</Link>
-      <Link to="onlineReading">Online Reading</Link>
+      <Link to="searchBar">SearchBar</Link>
     </div>
   );
 };
