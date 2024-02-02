@@ -23,12 +23,9 @@ const Cart = () => {
           return (
             <div key={item.id}>
               <div className="carditems-format">
-                <img className="carditemImg" src={item.image} alt="Product" />
                 <p>{item.name}</p>
                 <p>Rs {item.new_price}</p>
-                <button className="carditem-quantity">
-                  {cartItems[item.id]}
-                </button>
+                <p className="carditem-quantity">{cartItems[item.id]}</p>
                 <p className="totalprice">
                   Rs {item.new_price * cartItems[item.id]}
                 </p>
@@ -49,8 +46,6 @@ const Cart = () => {
       })}
 
       <div className="cardItems-down">
-        <hr />
-        <hr />
         <div className="cardItems-total">
           <h1>CART TOTAL</h1>
           <div>
