@@ -54,17 +54,15 @@ const Cart = () => {
               <p>SubTotal</p>
               <p>Rs {cartTotal()}</p>
             </div>
-            <hr />
 
             <div className="cardItems-total-item">
               <p>Shipping</p>
-              <p>Free</p>
+              <p> Rs {cartTotal() * 0.2}</p>
             </div>
-            <hr />
 
             <div className="cardItems-total-item">
               <h3>Total</h3>
-              <h3>Rs {cartTotal()}</h3>
+              <h3>Rs {cartTotal() * 1.2}</h3>
             </div>
           </div>
 
