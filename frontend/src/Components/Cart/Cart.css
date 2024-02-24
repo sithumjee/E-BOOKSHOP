@@ -25,6 +25,14 @@ hr {
   width: 100%;
 }
 
+.tophr {
+  border: 2px solid #000000;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .carditems-format {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr;
@@ -43,6 +51,7 @@ hr {
   box-shadow: 0 0 6px 1px rgb(145, 3, 3);
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .cardItems-down {
@@ -57,13 +66,58 @@ hr {
 }
 
 .cardItems-total {
-  width: 500px;
-  background-color: aqua;
+  width: 700px;
 }
 
 .cardItems-total h1 {
-  background-color: red;
+  background-color: rgba(117, 10, 10, 0.662);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   padding: 20px;
+}
+
+.cardItems-total-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardItems-total-item h4 {
+  padding-right: 100px;
+  font-size: 20px;
+  color: rgb(12, 17, 103);
+}
+
+.cardItems-total-item p {
+  font-size: 15px;
+}
+
+.cardItems-total-item h3 {
+  font-size: 25px;
+  padding-right: 100px;
+}
+
+.cartItems-promocode {
+  width: 500px;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.cartItems-promocode p {
+  font-size: 18px;
+}
+
+.cardItems-promobox input {
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.cardItems-promobox button {
+  background-color: blue;
+  margin-left: 10px;
 }

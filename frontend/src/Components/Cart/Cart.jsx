@@ -16,7 +16,7 @@ const Cart = () => {
         <p>Total</p>
         <p>Remove</p>
       </div>
-      <hr />
+      <hr className="tophr" />
 
       {all_product.map((item) => {
         if (cartItems[item.id] > 0) {
@@ -51,18 +51,18 @@ const Cart = () => {
           <h1>CART TOTAL</h1>
           <div>
             <div className="cardItems-total-item">
-              <p>SubTotal</p>
+              <h4>SubTotal</h4>
               <p>Rs {cartTotal()}</p>
             </div>
 
             <div className="cardItems-total-item">
-              <p>Shipping</p>
+              <h4>Shipping</h4>
               <p> Rs {cartTotal() * 0.2}</p>
             </div>
 
             <div className="cardItems-total-item">
               <h3>Total</h3>
-              <h3>Rs {cartTotal() * 1.2}</h3>
+              <h2>Rs {cartTotal() * 1.2}</h2>
             </div>
           </div>
 

@@ -46,7 +46,7 @@ const Navbar = () => {
 
         <div className="navbar__cart">
           <Link to="/login">
-            <button>Login</button>
+            <button>Logout</button>
           </Link>
           <Link to="/cart">
             <img src={cart_icon} alt="cart" />
