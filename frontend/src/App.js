@@ -68,27 +68,18 @@ function App() {
             path="/adventure"
             element={<ShopCategory category="adventure" />}
           />
-          <Route
-            path="/health"
-            element={<ShopCategory category="children" />}
-          />
+          <Route path="/health" element={<ShopCategory category="health" />} />
           <Route
             path="/philosophy"
             element={<ShopCategory category="philosophy" />}
           />
-          <Route path="/art" element={<ShopCategory category="children" />} />
-          <Route
-            path="/poetry"
-            element={<ShopCategory category="children" />}
-          />
+          <Route path="/art" element={<ShopCategory category="art" />} />
+          <Route path="/poetry" element={<ShopCategory category="poetry" />} />
           <Route
             path="/religion"
             element={<ShopCategory category="religion" />}
           />
-          <Route
-            path="/sports"
-            element={<ShopCategory category="children" />}
-          />
+          <Route path="/sports" element={<ShopCategory category="sports" />} />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>

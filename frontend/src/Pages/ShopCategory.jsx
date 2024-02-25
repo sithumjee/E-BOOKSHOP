@@ -12,6 +12,7 @@ export default function ShopCategory(props) {
   );
   return (
     <div className="mainCategory">
+      <h1>-- {props.category} --</h1>
       <div className="shopcategory-product">
         {filteredProducts.map((product, index) => (
           <Item
