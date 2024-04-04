@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./Cart.css";
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from "../Assets/cart_cross_icon.png";
@@ -6,14 +6,6 @@ import remove_icon from "../Assets/cart_cross_icon.png";
 const Cart = () => {
   const { all_product, cartItems, removeToCart, cartTotal } =
     useContext(ShopContext);
-
-  const [transactionCompleted, setTransactionCompleted] = useState(false);
-
-  const handleCheckout = () => {
-    // Perform any necessary checkout logic here
-    // For this example, we'll simply set the transactionCompleted state to true
-    setTransactionCompleted(true);
-  };
   return (
     <div className="carditems">
       <div className="cartitems-format-main">
@@ -74,13 +66,8 @@ const Cart = () => {
             </div>
           </div>
 
-          <button onClick={handleCheckout}>Proceed to Checkout</button>
+          <button>Proceed to Checkout</button>
         </div>
-        {transactionCompleted && (
-          <div className="popup">
-            <p>Transaction completed</p>
-          </div>
-        )}
         <div className="cartItems-promocode">
           <p>If you have a promo code,Enter it here</p>
           <div className="cardItems-promobox">
