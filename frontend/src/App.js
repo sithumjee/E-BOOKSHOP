@@ -14,7 +14,6 @@ import PastPapers from "./Components/PastPapers/PastPapers";
 import ShortcutLinks from "./Components/Navbar/Sortcut_Links/SOrtcutLinks";
 import BookSearch from "./Components/SearchBar/BookSearch";
 import Cart from "./Components/Cart/Cart";
-import AuthPage from "./Pages/AuthPage";
 
 function App() {
   return (
