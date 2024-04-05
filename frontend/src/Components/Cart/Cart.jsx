@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import "./Cart.css";
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from "../Assets/cart_cross_icon.png";
+import { Link } from "react-router-dom";
+import Transaction from "../Transaction/Transaction";
 
 const Cart = () => {
   const { all_product, cartItems, removeToCart, cartTotal } =
@@ -66,7 +68,9 @@ const Cart = () => {
             </div>
           </div>
 
-          <button>Proceed to Checkout</button>
+          <button>
+            <Link to="/transaction">Proceed to Checkout</Link>
+          </button>
         </div>
         <div className="cartItems-promocode">
           <p>If you have a promo code,Enter it here</p>

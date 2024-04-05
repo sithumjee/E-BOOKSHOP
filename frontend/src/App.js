@@ -15,6 +15,7 @@ import ShortcutLinks from "./Components/Navbar/Sortcut_Links/SOrtcutLinks";
 import BookSearch from "./Components/SearchBar/BookSearch";
 import Cart from "./Components/Cart/Cart";
 import AuthPage from "./Pages/AuthPage";
+import Transaction from "./Components/Transaction/Transaction";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/PastPapers" element={<PastPapers />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/searchBar" element={<BookSearch />} />
+          <Route path="/transaction" element={<Transaction />} />
 
           <Route
             path="/romance"

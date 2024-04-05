@@ -1,0 +1,31 @@
+.transaction {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 150px;
+}
+
+.transaction input,
+.transaction select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.transaction button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction button:hover {
+  background-color: #45a049;
+}
