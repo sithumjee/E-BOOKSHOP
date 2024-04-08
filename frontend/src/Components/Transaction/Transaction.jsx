@@ -49,13 +49,7 @@ const Transaction = () => {
           onChange={handleInputChange}
           placeholder="Email"
         />
-        <input
-          type="text"
-          name="address"
-          value={userInfo.address}
-          onChange={handleInputChange}
-          placeholder="Address"
-        />
+
         <select
           name="paymentMethod"
           value={userInfo.paymentMethod}
