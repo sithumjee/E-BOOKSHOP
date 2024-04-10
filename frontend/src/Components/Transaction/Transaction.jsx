@@ -60,7 +60,6 @@ const Transaction = () => {
         </select>
         {userInfo.paymentMethod === "online" && (
           <div>
-            <input type="radio" name />
             <input
               type="text"
               name="cardNumber"
