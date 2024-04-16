@@ -9,8 +9,6 @@ const AuthPage = ({ history }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Add your authentication logic here.
-    // For now, let's use a simple hardcoded username and password.
     if (username === "admin" && password === "admin") {
       // If the authentication is successful, navigate to the home page.
       history.push("/");
